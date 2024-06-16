@@ -1,0 +1,175 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 Jun 2024, 10:30:20 AM
+    Author     : LENOVO
+*/
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    font-family: Stardos Stencil;
+    font-size:22px;
+    font-weight: bolder;
+    color:blue;
+}
+#logo1{
+    font-family: Stardos Stencil;
+    color: red;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left:10%;
+}
+
+header,footer {
+    background-color: #1fb1c4;
+    color: white;
+    max-height: fit-content;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    align-items: center;
+    text-align: center;
+    margin-left:30%;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin: 0;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+button{
+    width:30%;
+    margin:auto;
+    height: fit-content;
+    padding:5px;
+    text-align: center;
+    font-weight: bold;
+    margin:12px 5px;
+}
+#section{
+    min-height:85vh;
+    padding:3% auto;
+}
+body{
+    height: fit-content;
+    background-color: #a8e6f0;
+    padding-bottom: 4%;
+}
+footer {
+    text-align: center;
+    bottom:0;
+    position:fixed;
+    width:100%;
+    padding:10px;
+    margin-top: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+    #logo{
+        font-size:15px;
+    }
+    #logo1{
+        font-size: 15px;
+    }
+    header nav {
+        margin-left:18%;
+    }
+    li a {
+        padding: 15px 13px;
+        font-size: 11px;
+    }
+    #log {
+        width: 25%;
+    }
+    button{
+        margin:12px 2px;
+        padding:1px;
+        font-size:8px;
+        margin-left: 0px;
+    }
+    #user{
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    #logo,#logo1{
+        font-size:17px;
+    }
+    header nav {
+        margin-left:15%;
+    }
+    li a {
+        padding: 15px 20px;
+        font-size: 10px;
+    }
+    #log {
+        width: 22%;
+    }
+    button{
+        margin:12px 2px;
+        padding:3px;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #logo{
+        font-size:20px;
+    }
+
+    #logo1{
+        font-size: 20px;
+    }
+    header nav {
+        margin-left:25%;
+    }
+    li a {
+        padding: 15px 25px;
+        font-size: 12px;
+    }
+    #log {
+        width: 19%;
+    }
+    button{
+        margin:12px 4px;
+        font-size: 11px;
+        padding:3px;
+    }
+}
